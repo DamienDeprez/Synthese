@@ -11,4 +11,62 @@
 \titre{\@title}{\@author}{\@date}{}{}
 
 \tableofcontents
+\part{Thermodynamique}
+\chapter{Gaz parfait et théorie cinétique des gaz}
+\section{Théorie de Bernoulli}
+\subsection{Hypothèse}
+\begin{itemize}
+\item Un gaz est composé de beaucoup de sphère de diamètre $d$
+\item Le diamètre $d$ est petit par rapport à la distance intermoléculaire.
+\item La distance intermoléculaire est petite par rapport à la taille macroscopique du système
+\item Il n'y a pas d'interaction entre les molécules (attraction/répulsion).
+\item Les lois de la mécanique classique sont d'applications mais pas celle de la mécanique quantique.
+\item Les parois n'absorbent pas d'énergie.
+\end{itemize}
+Les hypothèses sont valables à faible pression(<100 bar).
+
+La pression d'un gaz est due aux chocs des molécules sur la parois.
+$$ p =\frac{1}{3} \rho\bar{c^2}$$
+\section{Théorie des gaz parfait}
+\subsection{Hypothèse}
+\begin{itemize}
+\item on suppose que la masse est constante ainsi que la température.
+\end{itemize}
+\subsection{Loi de Boyle}
+$$pV=cst$$ 
+Attention dans l'expérience de Boyle, la pression reste faible.
+\subsection{Loi de Charles}
+$$V(\theta)=V(0 \degres C)(1+\alpha \theta)$$
+
+A faible pression, le coefficient $\alpha$ est le même pour tous les gaz indépendant de la température.
+$$\frac{V(\theta)}{\alpha_0V(0\degres C)}=\alpha^{-1}_0 +\theta\textmd{ avec }\alpha_0^{-1}=273.15 \left[K\right]$$
+$$\Rightarrow \frac{V}{T}=cst$$
+\subsection{Loi de Boyle, Loi de Charles et Hypothèse d'Avogadro}
+\begin{itemize}
+\item Loi de Boyle : $pV=cst$
+\item Loi de Charles : $V/T=cst$
+\item Hypothèse d'Avogadro : $pV=nRt$
+\end{itemize}
+\section{Distribution de Maxwell}
+\subsection{Hypothèse}
+\begin{itemize}
+\item Le milieu gazeux est homogène : les propriétés ne dépendent pas de la position.
+\item Le milieu est isotrope : les propriétés ne dépendent pas de la direction
+\item Il existe une distribution au sens statique de la vitesse (énergie cinétique)
+\item Les propriétés macroscopiques sont le reflet du comportement microscopique moyen.
+\end{itemize}
+\subsection{Espace de Vitesse}
+Soit $f=\frac{d\phi}{dc}$ la dérivée de la forme mathématique de la distribution de vitesse par rapport à la vitesse. Alors, $$\int_{-\infty}^{\infty}{\int_{-\infty}^{\infty}{\int_{-\infty}^{\infty}{f_1(c_1)f_2(c_2)f_3(c_3)dc_1dc_2dc_3}}}=1$$
+Si le milieu est isotrope (invariance des propriétés physique selon la direction), alors $F(c)=f_1(c_1)f_2(c_2)f_3(c_3)$.
+$$F(c)dc=f_1(c_1)f_2(c_2)f_3(c_3)dc_1dc_2dc_3=4\pi c^{2} \frac{M^{3/2}}{2\pi} e^{-\frac{M}{2RT}c^{2}}$$
+Vitesse intéressantes : 
+\begin{itemize}
+\item vitesse la plus probable $$c_p=\sqrt{\frac{2RT}{M}}$$
+\item vitesse moyenne
+$$\bar{c}=\sqrt{\frac{4}{\pi}}c_p$$
+\item vitesse quadratique moyenne
+$$\bar{c^{2}}=\sqrt{\frac{3}{2}}c_p$$
+\end{itemize}
+\section{Théorie cinétique des gaz}
+\subsection{Énergie cinétique d'un gaz monoatomique}
 \end{document}
